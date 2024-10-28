@@ -1,0 +1,31 @@
+Imágenes del HEADER de las distintas páginas:
+
+INDEX = HOME
+https://images.unsplash.com/photo-1593504049359-74330189a345?q=80&w=2127&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==
+
+CONOCENOS
+https://images.unsplash.com/photo-1517686469429-8bdb88b9f907?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==
+
+MENU
+https://images.unsplash.com/photo-1589187151053-5ec8818e661b?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==
+
+CONTACTO
+https://images.unsplash.com/photo-1606455036891-15e4be71eef0?q=80&w=1986&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA==
+
+DELIVERY
+https://unsplash.com/es/fotos/vista-trasera-del-mensajero-con-bolsa-de-refrigerador-montando-scooter-a-lo-largo-de-una-hermosa-calle-soleada-con-pequenas-casas-concepto-de-entrega-de-alimentos-rzkT2W0BfOo
+
+página - color de fondo
+
+ background-color: #FFEBDD;
+
+footer - colores
+
+background-color: rgba(138, 67, 67, 0.5);
+
+color: white;
+
+botón - utilizado en la pagina
+
+background-color: #A10000;
+color: white;
