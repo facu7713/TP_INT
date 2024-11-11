@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body class="bg-[#FFEBDD]">
+    <header >
+        <nav class="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800 font-mono text-center">
+            <div class="flex flex-wrap items-center justify-between mx-auto max-w-screen-xl">
+                <!-- Logo -->
+                <div class="w-full flex justify-center md:justify-start md:w-auto">
+                    <a href="https://flowbite.com" class="flex items-center">
+                        <img src="./assets/logo/logo.png" class="w-24 h-24" alt="Pizza Paradise Logo" />
+                    </a>
+                </div>
+        
+                <!-- Menú de navegación (visible en tablet y superior) -->
+                <div id="tablet-menu" class="hidden md:flex md:justify-center md:flex-grow">
+                    <ul class="flex flex-row space-x-8 font-medium text-sm md:text-base lg:text-lg">
+                        <li><a href="index.html" class="text-gray-500 hover:text-black">INICIO</a></li>
+                        <li><a href="conocenos.html" class="text-gray-500 hover:text-black">CONÓCENOS</a></li>
+                        <li><a href="menu.html" class="text-gray-500 hover:text-black">MENÚ</a></li>
+                        <li><a href="contacto.html" class="text-gray-500 hover:text-black">CONTACTO</a></li>
+                    </ul>
+                </div>
+                <div class="hidden w-full mt-2" id="mobile-menu">
+                    <ul class="flex flex-col font-medium text-center text-lg space-y-2">
+                        <li>
+                            <a href="index.html" class="block py-2 pr-4 pl-3 text-gray-500 hover:text-black">INICIO</a>
+                        </li>
+                        <li>
+                            <a href="conocenos.html" class="block py-2 pr-4 pl-3 text-gray-500 hover:text-black">CONÓCENOS</a>
+                        </li>
+                        <li>
+                            <a href="menu.html" class="block py-2 pr-4 pl-3 text-gray-500 hover:text-black">MENÚ</a>
+                        </li>
+                        <li>
+                            <a href="contacto.html" class="block py-2 pr-4 pl-3 text-gray-500 hover:text-black">CONTACTO</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Botón de Delivery y icono de Instagram (visible en tablet y superior) -->
+                <div class="flex justify-between items-center w-full md:w-auto lg:order-2 mt-4 md:mt-0">
+                    <a href="delivery.html" class="bg-[#A10000] text-white hover:text-black focus:ring-4 focus:ring-primary-300 font-medium rounded-full text-sm px-4 py-2 lg:py-2.5 mr-2 dark:bg-primary-600 dark:hover:bg-primary-700 focus:outline-none dark:focus:ring-primary-800 text-1xl md:text-2xl">
+                        DELIVERY
+                    </a>
+        
+                    <!-- Icono de Instagram visible solo en tablet y superior -->
+                    <a href="https://flowbite.com" class="hidden md:flex items-center ml-2">
+                        <img src="./assets/redes/ig-navbar.png" class="w-auto h-14" alt="Instagram Logo" />
+                    </a>
+                    <!-- Menú hamburguesa (visible solo en móvil) -->
+                    <button id="menu-toggle" class="text-gray-500 hover:text-black focus:outline-none md:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-8 h-8">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                    </button>
+                </div>
+        
+                
+                
+            </div>
+        </nav>
+        <div class="h-screen bg-cover bg-center relative" style="background-image: url('assets/img/food-delivery-moto-scooter-driver-600nw-1730162416.webp')">
+             <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white">
+            <h1 class="text-5xl font-serif">DELIVERY</h1>
+        </div>
+        </div>
+       
+    </header>
+    <section class=" text-center py-16">
+        <div class="max-w-4xl mx-auto px-4 ">
+            <h2 class="text-4xl md:text-5xl font-serif text-gray-800 leading-tight">
+                Hacé tu pedido
+            </h2>
+            <p class="text-gray-500 mt-4  leading-tight font-mono mx-auto">
+                Ofrecemos servicios de entrega a domicilio para que disfrutes <br> de nuestras deliciosas pizzas donde quiera que estés.
+            </p>
+            <div class="flex justify-center items-center mt-4">
+                <a href="contacto.html" class="mt-4 bg-[#A10000] text-white font-semibold py-2 px-4 rounded-full hover:text-black font-mono">Llamanos ahora</a>
+            </div>
+        </div>
+    </section>
+    
+    <footer class=" text-white py-8 mt-8 font-serif color">
+        <div class="max-w-screen-xl mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between">
+                <div>
+                    <div class="flex justify-center items-center mt-4">
+                        <img src="assets/logo/logo2.png" class="h-32 w-36 mx-auto" alt="Instagram Logo">
+                    </div>
+                    <p class="font-mono">¡Ven a conocernos en Pizza Paradice!<br class="max-w-lg my-5">Calle Falsa 123, Ciudad Imaginaria</p>
+                    <div class="flex justify-center items-center mt-4">
+                        <a href="conocenos.html" class="mt-4 bg-[#A10000] text-white py-2 px-4 rounded-full hover:text-black font-mono">Ubicación</a>
+                    </div>
+                    
+                </div>
+                <div class="max-w-lg my-5">
+                    <h3 class="font-semibold text-lg mb-2 text-center">HORARIOS</h3>
+                    <p class="font-mono max-w-lg ">Lunes a Viernes: 11:00 AM - 10:00 PM<br class="max-w-lg my-5">Sábado y Domingo: 12:00 PM - 11:00 PM</p>
+                </div>
+                <div class="max-w-lg my-5">
+                    <h3 class="font-semibold text-lg mb-2 text-center">CONTACTO</h3>
+                    <p class="font-mono">Teléfono: (123) 456-7890<br class="max-w-lg my-5">Email: info@pizzaparadice.com</p>
+                    <div class="flex justify-center items-center mt-4">
+                        <a href="contacto.html" class="mt-4 bg-[#A10000] text-white py-2 px-4 rounded-full hover:text-black font-mono">Hacé tu pedido</a>
+                    </div>
+                    <a href="https://flowbite.com" class="flex items-center space-x-4 max-w-lg my-5">
+                        <img src="./assets/redes/ig-footer.png" class="w-16 h-14" alt="Flowbite Logo" />
+        
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script>
+        const menuToggle = document.getElementById('menu-toggle');
+        const mobileMenu = document.getElementById('mobile-menu');
+    
+        menuToggle.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+</body>
+</html>
